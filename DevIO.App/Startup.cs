@@ -64,7 +64,7 @@ namespace DevIO.App
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                //app.UseDatabaseErrorPage(); // Comentado pra evitar erro do efCore.
+                //app.UseDatabaseErrorPage(); // Comentado pra evitar erro do EFCore.
             }
             else
             {
